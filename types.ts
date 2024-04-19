@@ -13,3 +13,8 @@ export type tComentario = {
   user: string;
   message: string;
 };
+
+export enum Pages {
+  RPERFILES = "rperfiles",
+  RUSER = "ruser",
+}
